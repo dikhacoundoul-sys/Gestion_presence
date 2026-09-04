@@ -26,9 +26,9 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'gateway01.us-east-1.prod.aws.tidbcloud.com',
-        'username'     => '2xXiui7bdpcpybA.root',
-        'password'     => 'xo5WNoyuOlmR2Wg2',
+        'hostname'     => 'localhost',
+        'username'     => 'root',
+        'password'     => '1234',
         'database'     => 'gestion_presence',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
@@ -37,7 +37,7 @@ class Database extends Config
         'charset'      => 'utf8mb4',
         'DBCollat'     => 'utf8mb4_general_ci',
         'swapPre'      => '',
-        'encrypt'      => true,
+        'encrypt'      => false,
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
