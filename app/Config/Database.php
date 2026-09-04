@@ -175,7 +175,7 @@ class Database extends Config
         'charset'     => 'utf8',
         'DBCollat'    => '',
         'swapPre'     => '',
-        'encrypt'     => false,
+        'encrypt'     => true,
         'compress'    => false,
         'strictOn'    => true,
         'failover'    => [],

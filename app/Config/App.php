@@ -16,8 +16,8 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://localhost:8080/';
-
+    #public string $baseURL = 'http://localhost:8080/';
+    public string $baseURL = 'https://gestion-presence-yqnw.onrender.com/';
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
      * If you want to accept multiple Hostnames, set this.
@@ -180,8 +180,8 @@ class App extends BaseConfig
      *
      * @var array<string, string>
      */
-    public array $proxyIPs = [];
-
+    #public array $proxyIPs = [];
+    public array $proxyIPs = ['0.0.0.0/0' => 'X-Forwarded-For'];
     /**
      * --------------------------------------------------------------------------
      * Content Security Policy
