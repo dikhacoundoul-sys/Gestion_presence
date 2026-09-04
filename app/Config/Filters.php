@@ -73,7 +73,7 @@ class Filters extends BaseFilters
      */
     public array $globals = [
         'before' => [
-            'SuperAdminFilter' => ['except' => ['login', 'auth/login', '/']],
+            'superAdminFilter' => ['except' => ['login', 'auth/login', '/']],
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
